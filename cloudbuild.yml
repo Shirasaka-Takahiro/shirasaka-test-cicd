@@ -1,0 +1,5 @@
+steps:
+- name: 'gcr.io/cloud-builders/docker'
+  args: [ 'build', '-t', 'asia-northeast1-docker.pkg.dev/beyond-poc/shirasaka-test-repository/shirasaka-test:v2', '.' ]
+images:
+- 'asia-northeast1-docker.pkg.dev/beyond-poc/shirasaka-test-repository/shirasaka-test:v2'
